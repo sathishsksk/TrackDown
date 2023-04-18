@@ -65,7 +65,7 @@ def get_quality(user_id):
 
 # Example usage
 if __name__ == '__main__':
-    token = 'YOUR_BOT_TOKEN'
+    token = '5822625873:AAEwff4upTEbA0nj9B6HSZsukp4kT4POIRc'
     updater = Updater(token)
     dispatcher = updater.dispatcher
     dispatcher.add_handler(CommandHandler('download', download_extract_and_create_cover, pass_args=True))
